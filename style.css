@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #fbeb64;
+}
+
+
+#flex{
+    display:flex;
+    justify-content:center;
+    
+}
+
+#foto-pokemon {
+    margin-bottom: -15px;
+
+}
+
+#cartao {
+    margin-top: 20px;
+    opacity: 0;
+    border: 1px solid #131f58;
+    box-shadow: 2px 7px 8px 5px rgba(0,0,0,0.47);
+
+}
+
+#flex-tipos {
+    display: flex;
+}
+
+#tipo {
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+   
+}
+#tipo-2 {
+    border-radius: 10px;
+    width: 40%;
+    margin: auto;
+}
+
+
+*{
+    font-family:'Play';
+}
+
+#pesquisar {
+    border-radius: 10px;
+    background-color: #131f58;
+    color: #fff;
+    letter-spacing: 2px;
+    border: none;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pokemon-digitado {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#logo{
+    margin-top: 10px;
+    width: 20%;
+}
+
+.display-6 {
+    margin-top: 50px;
+    color: #131f58;
+    font-weight: bold;
+}

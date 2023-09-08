@@ -1,0 +1,1 @@
+Fiz este projeto para estudo de APIs, inicialmente pensei em fazer utilizando uma API de fatos aleatórios,  mas optei por uma usar esta API que traz muitas informações diversas que eu poderia expandir se assim o projeto quando eu desejasse.

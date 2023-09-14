@@ -11,6 +11,7 @@ let descricao = document.getElementById('descricao')
 pesquisar.addEventListener('click', function () {
     //Muda cursor pra ampulheta
     document.body.style.cursor = "wait";
+    cartao.style.opacity = 0
 
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonDigitado.value}`)
         .then(response => response.json())
@@ -177,5 +178,4 @@ pesquisar.addEventListener('click', function () {
             descricao.textContent = data.flavor_text_entries[aleatorio].flavor_text
             
         })
-
 })

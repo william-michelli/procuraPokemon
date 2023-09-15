@@ -159,7 +159,6 @@ pesquisar.addEventListener('click', function () {
                 tipo2.style.backgroundColor = '#D685AD'
             } 
 
-            cartao.style.opacity = 1
         }).catch(err => {
             pokemonDigitado.value = ''
             alert('Pokemon nao encontrado')
@@ -177,5 +176,7 @@ pesquisar.addEventListener('click', function () {
             let aleatorio = Math.floor(Math.random() * 11);
             descricao.textContent = data.flavor_text_entries[aleatorio].flavor_text
             
-        })
+        }).finally(() => {
+            cartao.style.opacity = 1
+        })        
 })
